@@ -6,6 +6,7 @@ package aplikasi_penjualan;
 
 import tampilan.Pelanggan;
 import tampilan.Kasir;
+import tampilan.Barang;
 import koneksi.koneksi;
 import java.sql.Connection;
 
@@ -41,6 +42,7 @@ public class Aplikasi_Penjualan {
                 public void run() {
                     new Pelanggan().setVisible(true);
                     new Kasir().setVisible(true);
+                    new Barang().setVisible(true);
                 }
             });
         } else {

@@ -11,7 +11,7 @@ import koneksi.koneksi;
 
 /**
  *
- * @author sheilajavana
+ * @author Fachri Bagas Tami
  */
 public class Pelanggan extends javax.swing.JFrame {
     private Connection conn = new koneksi().connect();
